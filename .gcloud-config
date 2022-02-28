@@ -1,0 +1,7 @@
+[compute]
+region = us-west1
+zone = us-west1-c
+[core]
+account = cloud_user_p_e6de742a@linuxacademygclabs.com
+disable_usage_reporting = True
+project = playground-s-11-f86abe1b
