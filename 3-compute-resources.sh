@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Create a VPC
 gcloud compute networks create kubernetes-the-hard-way --subnet-mode custom
@@ -51,6 +52,3 @@ for i in 0 1 2; do
     --subnet kubernetes \
     --tags kubernetes-the-hard-way,worker
 done
-
-### Configure SSH
-gcloud compute ssh controller-0
