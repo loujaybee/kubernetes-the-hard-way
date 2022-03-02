@@ -1,3 +1,3 @@
 tasks:
-  - init: ./deps.sh
+  - init: ./1-prerequisites.sh
     command: echo 'start script'
