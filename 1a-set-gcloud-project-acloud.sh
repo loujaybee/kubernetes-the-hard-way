@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Login
+gcloud auth login
+
 # Grab the cloud playground ID
 PROJECT_ID=$(gcloud projects list | grep playground | cut -d' ' -f1)
 echo "Setting project_id as: $PROJECT_ID"
